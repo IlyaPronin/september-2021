@@ -25,8 +25,8 @@ let userName = null;
 let myWife;
 
 let myObgekt = {
-    Name: myName,
-    Age: myAge
+  Name: myName,
+  Age: myAge,
 };
 
 console.log(myObgekt);
