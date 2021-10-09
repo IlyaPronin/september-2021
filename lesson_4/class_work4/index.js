@@ -78,3 +78,60 @@
 //   default:
 //     console.log("Имя нет в списке");
 // }
+
+// const a = 100;
+// const b = 1;
+// const result1 = a || b;
+// console.log(result1);
+
+// const a = 10;
+// const b = "";
+
+// const result = a && b;
+// console.log(result);
+
+// const a = 1;
+// const b = 20;
+// const c = 3;
+// if (a > b && a > c) {
+//   console.log(a);
+// } else if (b > a && b > c) {
+//   console.log(b);
+// } else {
+//   console.log(c);
+// }
+
+// let i = 0;
+// // while (i < 10) {
+// //   console.log(i);
+// //   i += 1;
+// // }
+
+// let newString = "привет";
+// let a = 0;
+
+// while (a < 10) {
+//   console.log(newString);
+//   a += 1;
+// }
+
+// let newString = "привет!!";
+
+// for (let a = 0; a < 10; a++) {
+//   console.log(newString);
+// }
+
+let N = 120;
+let M = 2;
+let day = 0;
+
+// while (M <= N) {
+//   console.log(day);
+//   day += 1;
+//   N = N / 2;
+// }
+
+for (let day = 0; M <= N; N = N / 2) {
+  console.log(day);
+  day += 1;
+}
