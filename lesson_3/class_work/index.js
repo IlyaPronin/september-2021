@@ -36,7 +36,6 @@
 
 // console.log(2**2);
 
-
 // Унарный плюс
 // const value = "5";
 // console.log(typeof value, typeof +value);
@@ -55,13 +54,11 @@
 
 // console.log(sum);
 
-
 // const stringValue = "12";
 // const numberValue = 34;
 
 // console.log(+stringValue + numberValue);
 // console.log(typeof (numberValue + +stringValue));
-
 
 // const firstName = "Alex";
 // const lastName = 'Shir';
@@ -69,11 +66,9 @@
 // console.log(firstName +" "+ lastName);
 // console.log(`${firstName} ${lastName}`);
 
-
 // лперации сравнения
 
 // console.log(false==0);
-
 
 // const firstString = "яблоко";
 // const secondString = "Яблоко";
@@ -84,10 +79,5 @@
 const a = 0;
 const b = "0";
 
-console.log(a==b);
-console.log(a===b);
-
-
-
-
-
+console.log(a == b);
+console.log(a === b);
