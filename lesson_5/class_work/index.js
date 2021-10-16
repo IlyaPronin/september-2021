@@ -132,14 +132,42 @@
 
 // getUserInfo(getName);
 
-function test() {
-  console.log("test");
-}
+// function test() {
+//   console.log("test");
+// }
 
-test();
+// test();
 
-const test2 = function () {
-  console.log("test2");
-};
+// const test2 = function () {
+//   console.log("test2");
+// };
 
-test2();
+// test2();
+
+// const myFirstArrowFunc = () => console.log("!!");
+
+// const test1 = (name) => name;
+
+// console.log(test1("Ilya"));
+
+// const getLog = () => console.log("LOg");
+// getLog();
+
+// const myArrFunc = (text, numb) => {
+//   for (let i = 0; i < numb; i += 1) {
+//     console.log(text);
+//   }
+// };
+// myArrFunc("by", 12);
+// myArrFunc("привет", 5);
+
+// // const anyBook = ["a", "e", " y", " u", "i", "o", "A", "E", "Y", "U", "I", "O"];
+// const isBook = (str) => {
+//   if (str == anyBook) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// };
+
+// isBook("a");

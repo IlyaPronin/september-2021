@@ -118,3 +118,35 @@
 //     console.log("осень");
 //     break;
 // }
+
+// let day = 12;
+// if (day <= 10 && day > 0) {
+//   console.log("первая декада");
+// } else if (day <= 20 && day > 10) {
+//   console.log("вторая декада");
+// } else if (day <= 31 && day > 20) {
+//   console.log("третья декада");
+// } else {
+//   console.log("нет такого дня");
+// }
+
+// let month = 17;
+// if ((month <= 2 && month > 0) || month == 12) {
+//   console.log("зима");
+// } else if (month <= 5 && month > 2) {
+//   console.log("весна");
+// } else if (month <= 8 && month > 5) {
+//   console.log("лето");
+// } else if (month <= 11 && month > 8) {
+//   console.log("осень");
+// } else {
+//   console.log("нет такого месяца");
+// }
+
+let newString = "abcnh";
+let a = "a";
+if (newString == a) {
+  console.log("да");
+} else {
+  console.log("нет");
+}
