@@ -163,7 +163,7 @@
 
 // // const anyBook = ["a", "e", " y", " u", "i", "o", "A", "E", "Y", "U", "I", "O"];
 // const isBook = (str) => {
-//   if (str == anyBook) {
+//   if (str[0] == anyBook) {
 //     console.log(true);
 //   } else {
 //     console.log(false);

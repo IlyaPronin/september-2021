@@ -143,10 +143,147 @@
 //   console.log("нет такого месяца");
 // }
 
-let newString = "abcnh";
-let a = "a";
-if (newString == a) {
-  console.log("да");
-} else {
-  console.log("нет");
+// let newString = "abcd";
+// if (newString[0] == "a") {
+//   console.log("да");
+// } else {
+//   console.log("нет");
+// }
+
+// let newString = "12345";
+// if (newString[0] == "1") {
+//   console.log("да");
+// } else if (newString[0] == "2") {
+//   console.log("да");
+// } else if (newString[0] == "3") {
+//   console.log("да");
+// } else {
+//   console.log("нет");
+// }
+
+// let newString = "975";
+// let sum = `сумма цифр из числа = ${
+//   +newString[0] + +newString[1] + +newString[2]
+// }`;
+// console.log(sum);
+
+// let newString = "975659";
+// let sumOne = +newString[0] + +newString[1] + +newString[2];
+// let sumTwo = +newString[3] + +newString[4] + +newString[5];
+// if (sumTwo === sumOne) {
+//   console.log("да");
+// } else {
+//   console.log("нет");
+// }
+
+// Выведите столбец чисел от 1 до 100.
+
+// let i = 1;
+// while (i < 101) {
+//   console.log(i);
+//   i++;
+// }
+
+// for (let num = 1; num < 101; num++) {
+//   console.log(num);
+// }
+
+// Выведите столбец чисел от 11 до 33.
+
+// let i = 11;
+// while (i < 34) {
+//   console.log(i);
+//   i++;
+// }
+
+// for (let i = 11; i < 34; i++) {
+//   console.log(i);
+// }
+
+// Выведите столбец четных чисел в промежутке от 0 до 100.
+
+// let i = 0;
+// while (i < 100) {
+//   i += 1;
+//   if (i % 2 != 0) continue;
+//   console.log(i);
+// }
+
+// for (let i = 0; i < 100; i++) {
+//   if (i % 2 != 0) continue;
+//   console.log(i);
+// }
+
+// С помощью цикла найдите сумму чисел от 1 до 100.
+// let sum = 0;
+// for (let i = 1; i < 101; i += 1) {
+//   sum = i + sum;
+// }
+// console.log(sum);
+
+// let sum = 0;
+// let i = 1;
+// while (i <= 100) {
+//   sum = sum + i;
+//   i += 1;
+// }
+// console.log(sum);
+
+// Дан массив с элементами [1, 2, 3, 4, 5]. С помощью цикла for выведите все эти элементы на экран.
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i += 1) {
+//   console.log(arr[i]);
+// }
+
+// Дан массив с элементами 2, 5, 9, 15, 0, 4. С помощью цикла for и
+// оператора if выведите на экран столбец тех элементов массива, которые больше 3-х, но меньше 10.
+
+// let arr = [2, 5, 9, 15, 0, 4];
+// for (let i = 0; i < arr.length; i += 1) {
+//   if (arr[i] > 10 || arr[i] < 3) continue;
+//   console.log(arr[i]);
+// }
+
+// Дан массив с числами. Числа могут быть положительными и отрицательными.
+//  Найдите сумму положительных элементов массива.
+
+// let arr = [2, 5, -9, 0, 4, -55, 48, 101];
+// let sum = 0;
+// for (let i = 0; i < arr.length; i += 1) {
+//   if (arr[i] < 0) continue;
+//   sum = sum + arr[i];
+// }
+
+// console.log(sum);
+
+// Дан массив с элементами 1, 2, 5, 9, 4, 13, 4, 10. С помощью цикла for и оператора if
+// проверьте есть ли в массиве элемент со значением, равным 4.
+//  Если есть - выведите на экран 'Есть!' и выйдите из цикла. Если нет - ничего делать не надо.
+
+// let arr = [1, 2, 5, 9, 13, 4, 10];
+// let str = "Есть!";
+// for (let i = 0; i < arr.length; i += 1) {
+//   if (arr[i] === 4) {
+//     console.log(str);
+//   }
+// }
+
+// Дан массив числами, например: [10, 20, 30, 50, 235, 3000].
+//  Выведите на экран только те числа из массива, которые начинаются на цифру 1, 2 или 5.
+
+// let arr = [10, 20, 30, 50, 235, 3000];
+// for (let i = 0; i < arr.length; i += 1) {
+//   arrStr = String(arr[i]);
+//   if (arrStr[0] != 1 && arrStr[0] != 2 && arrStr[0] != 5) continue;
+//   console.log(arrStr);
+// }
+
+//  Дан массив с элементами 1, 2, 3, 4, 5, 6, 7, 8, 9.
+//   С помощью цикла for создайте строку '-1-2-3-4-5-6-7-8-9-'.
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let str = "";
+for (let i = 0; i < arr.length; i += 1) {
+  str = str + "-" + arr[i];
 }
+console.log(str);
